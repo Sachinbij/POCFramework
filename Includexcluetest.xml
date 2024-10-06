@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="unitregression">
+  <test thread-count="5" name="Testr">
+	
+    <classes>
+      <class name="com.onelot.testscripts.VerifyTheErrorMessage">
+		
+	  </class>
+      <class name="com.onelot.testscripts.Verifyuserregister">
+		
+		<methods>	
+		<include name="checkExclude"/>		 
+		
+		</methods>
+	  </class>
+      
+    </classes>
+  </test> <!-- Testr -->
+</suite> <!-- unitregression -->
